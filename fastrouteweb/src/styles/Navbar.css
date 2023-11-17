@@ -1,0 +1,30 @@
+.login{
+    background-color:#724E31;
+    color: white;
+    border-radius: 30px;
+    border-color: #724E31;
+    border-style: solid;
+    height: 45px;
+    width: 140px;
+    margin:0px 25px;
+    font-weight: bold;
+}
+
+
+.login:hover{
+    box-shadow: 0px 0px 1px 1px #724E31;
+}
+.nav-item{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-item:hover{
+    color:#724E31;
+}
+
+.navbar{
+    background-color: white;
+}
+
