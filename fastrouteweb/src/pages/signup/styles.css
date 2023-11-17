@@ -1,0 +1,95 @@
+/* src/pages/SignUp/styles.css */
+
+/* Apply styles to custom button */
+.custom-button {
+    display: flex;
+    width: 620px;
+    height: 38px;
+    padding: 5px 208px 4px 220px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: rgba(114, 78, 49, 0.74);
+    color: white; /* You may need to adjust the text color for better visibility */
+  }
+
+/* src/pages/SignUp/styles.css */
+
+/* Apply styles to input boxes */
+.input-box {
+    display: flex;
+    width: 283px;
+    height: 30px;
+    padding: 6px 152px 6px 18px;
+    align-items: center;
+    border-radius: 5px;
+    background: rgba(237, 227, 227, 0.74);
+  }
+  
+  /* Apply styles to input labels */
+  .input-label {
+    color: black;
+  }
+  
+  /* Apply styles to headings */
+  .form-heading {
+    text-align: left;
+    color: black;
+  }
+/* src/pages/SignUp/styles.css */
+
+/* Apply styles to input box headings */
+/* src/pages/SignUp/styles.css */
+
+/* Apply styles to input box headings */
+.input-heading {
+    display: block;
+    width: 100%; /* Make the heading take the full width of its container */
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left; /* Set text alignment to left */
+    margin-bottom: 5px; /* Adjust margin as needed */
+  }
+  
+  .password-input {
+    position: relative;
+  }
+  
+  .hide-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust the right position as needed */
+    transform: translateY(-50%);
+    cursor: pointer
+  }
+  
+  
+  /* src/pages/SignUp/styles.css */
+
+/* Apply styles to Google Sign Up button */
+.custom-google-button {
+    display: flex;
+    height: 32px;
+    padding: 7px 171px 7px 237px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #7C776E;
+    background-color: #FFFFFF; /* Set background color */
+    color: #000000; /* Set text color */
+    cursor: pointer;
+  }
+  
+  /* Apply styles to Google logo */
+  .google-logo {
+    width: 20px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
