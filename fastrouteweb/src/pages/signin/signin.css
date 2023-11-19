@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+.container{
+    padding: 30px;
+}
+.container-head{
+    color: #724E31;
+    font-weight: bold;
+    text-align: start;
+    margin-left: 20px;
+}
+.or{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.google-login{
+    
+    display: flex;
+    height: 32px;
+    width: 600px;
+    padding: 7px 171px 7px 237px;
+    margin: 7px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #7C776E;
+    background-color: #FFFFFF; /* Set background color */
+    color: #000000; /* Set text color */
+    cursor: pointer;
+}
+
+.google-logo{
+    width: 20px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.or{
+    font-weight: bold;
+    font-size: 20px;
+}
+.dividing-line{
+    margin: 10px;
+
+    
+}
+
+.inputs{
+    margin-left: 30px;
+}
+
+.inputs-2{
+    margin-left: 30px;
+   
+}
+.input-heading {
+    display: block;
+    width: 100%; /* Make the heading take the full width of its container */
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left; /* Set text alignment to left */
+    margin-bottom: 5px; /* Adjust margin as needed */
+    margin-top: 15px;
+  }
+  .input-box {
+    display: flex;
+    width: 95%;
+    height: 35px;
+    padding: 6px 152px 6px 18px;
+    align-items: center;
+    border: none;
+    text-align: start;
+    font-size: medium;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(237, 227, 227, 0.74);
+  }
+
+  .hide-icon {
+    position: absolute;
+    top: 58%;
+    right: 33%; /* Adjust the right position as needed */
+    transform: translateY(-50%);
+    cursor: pointer
+  }
+  
+  .password-input {
+    position: relative;
+  }
+  .custom-button {
+    margin-top: 20px;
+    width: 550px;
+    height: 33px;
+    padding: 5px ;
+    flex-shrink: 0;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    font-weight:normal;
+    border: none;
+    background: rgba(114, 78, 49, 0.74);
+    color: white; /* You may need to adjust the text color for better visibility */
+  }
+
+  .create-acc{
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  ::placeholder{
+    color: #A4A4A4;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
