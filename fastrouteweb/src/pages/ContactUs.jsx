@@ -49,6 +49,27 @@ const ContactUs = () => {
             <button className = "about mx-3"><div className='aboutText'>About Us</div></button>
             </div>
         </div>
+
+        <div  className = "enquiry row flex ">
+         <div className = "col-7 py-5">
+            <h2 className = "mx-3">For Enquiry</h2>
+            <br/>
+            <form>
+                <input className = "inputFields" type = 'text' placeholder='Name' name = "name"/>
+                <br/>
+                <input className = "inputFields" type = 'text' placeholder = 'Email Id' name = "email"/>
+                <br/>
+                <input className = "inputFields" type = 'text' placeholder = 'Contact Number' name = "contact"/>
+                <br/>
+                <textarea className = "inputFields" name = "comment" placeholder = "Comment" rows = "7"/>
+                <br/><br/>
+                <button className = "about mx-3" type = "submit"><div className='aboutText'>Enquire</div></button>
+            </form>
+         </div>
+        <div className = "col-5">
+            <img src = "/enquiry.png" alt = "question area"/>
+        </div>
+        </div>
     </div>
     );
 }
