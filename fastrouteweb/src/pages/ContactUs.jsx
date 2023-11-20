@@ -28,7 +28,7 @@ const ContactUs = () => {
                 </div>
             </div>
         </div>
-        <div className = "follow my-5 py-5">
+        <div className = "follow my-5 py-5" style={{marginBottom:'0'}}>
             <div className = "col-3 fleft">
                 <h2 className = "mx-5">Follow Us</h2>
                 <div className='handles mx-5 py-2'>
