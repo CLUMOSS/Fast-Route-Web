@@ -5,7 +5,7 @@ import '../../../styles/Navbar.css'
 
 const Navbar = () => {
     return (
-        <header className="navbar d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2 mb-4 px-5">
+        <header className="navbar d-flex flex-wrap align-items-center justify-content-center justify-content-md-between px-5">
       <div className="col-md-3 mb-2 mb-md-0">
         <img src = "logo2 2.png" alt = "fastRoute logo"></img>
       </div>
