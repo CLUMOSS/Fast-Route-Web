@@ -7,20 +7,13 @@ import './App.css';
 // import Footer from './components/common/Footer/footer';
 //import Homepage from "./pages/home/homepage";  // Keep this line if you want to add the Homepage component
 import Career from './pages/careers/career';
-
+import AboutUs from './pages/about/aboutpage';
+import Homepage from './pages/home/homepage';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <a>
-    
-        </a>
-      </header>
-      <Career></Career> {/* Keep this line if you want to add the Homepage component */}
-      {/* ... Other code ... 
-      <ContactUs></ContactUs>
-  <Footer></Footer> */}
+      <Homepage></Homepage>
     </div>
   );
 }
