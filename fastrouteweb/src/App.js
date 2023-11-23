@@ -9,11 +9,13 @@ import './App.css';
 import Career from './pages/careers/career';
 import AboutUs from './pages/about/aboutpage';
 import Homepage from './pages/home/homepage';
-
+import WhyChooseUs from './pages/WhyChooseUs';
 function App() {
   return (
     <div className="App">
-      <Homepage></Homepage>
+      <Homepage></Homepage> 
+       
+       
     </div>
   );
 }
