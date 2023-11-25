@@ -24,7 +24,7 @@ const ExclusiveSection = () => {
           {/* Right side content */}
           <span style={{ color: '#523B29', fontFamily: '', fontSize: '50px', fontWeight: 700, lineHeight: 'normal'}}>|</span>
           <p style={{ color: 'var(--Black, #000)', fontFamily: '', fontSize: '18px', textAlign: 'justify', fontWeight: 400, lineHeight: 'normal' }}>
-            {/* Replace this with your actual content or use lorem ipsum */}
+            {/* Replace this with your actual content  */}
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum justo sit amet libero ultricies, eget faucibus nunc hendrerit.
           </p>
         </Col>
@@ -35,7 +35,7 @@ const ExclusiveSection = () => {
         <Col  xs={12} md={4} className="d-flex flex-column align-items-center mb-4" >
 
           <div>
-            {/* Icon for the first feature (replace with your icon) */}
+            {/* Icon for the first feature  */}
             <img src="/Stopwatch-Icon.svg" alt="Feature 1" />
             <h4 style={{ color: 'var(--Black, #000)', fontFamily: ' ', fontSize: '20px', fontWeight: 600, lineHeight: 'normal' }}>
               Order Tracking
@@ -59,7 +59,7 @@ const ExclusiveSection = () => {
         <Col xs={12} md={4}  className="d-flex flex-column align-items-center mb-4">
 
           <div>
-            {/* Icon for the third feature (replace with your icon) */}
+            {/* Icon for the third feature */}
             <img src="/mdi_coupon-outline.svg" alt="Feature 3" />
             <h4 style={{ color: 'var(--Black, #000)', fontFamily: ' ', fontSize: '20px', fontWeight: 600, lineHeight: 'normal' }}>
               Exclusive Offers

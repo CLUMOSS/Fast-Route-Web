@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-// import SignUp from './pages/signup/signup';
+import Washingpg from './pages/washingpts/washingpage';
 // import Navbar from './components/common/Navbar/Navbar';
  //import ContactUs from './pages/ContactUs';
 // import Footer from './components/common/Footer/footer';
@@ -13,6 +13,7 @@ import WhyChooseUs from './pages/WhyChooseUs';
 function App() {
   return (
     <div className="App">
+      {/* <Homepage></Homepage> */}
       <Homepage></Homepage> 
        
        
