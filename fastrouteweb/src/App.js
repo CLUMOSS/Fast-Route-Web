@@ -13,12 +13,12 @@ import Homepage from './pages/home/homepage';
 import WhyChooseUs from './pages/WhyChooseUs';
 import Resting from './pages/restingpoints/Resting';
 import LorryBooking from './pages/lorryBooking/LorryBooking';
+import CargoInsurance from './pages/CargoInsurance/CargoInsurance';
 
 function App() {
   return (
     <div className="App">
     <Vehical></Vehical>
-       
        
     </div>
   );
