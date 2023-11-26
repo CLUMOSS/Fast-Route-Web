@@ -6,15 +6,17 @@ import './App.css';
  //import ContactUs from './pages/ContactUs';
 // import Footer from './components/common/Footer/footer';
 //import Homepage from "./pages/home/homepage";  // Keep this line if you want to add the Homepage component
+ import Vehical from  "./pages/vehicle-insurance/vehicle";
 import Career from './pages/careers/career';
 import AboutUs from './pages/about/aboutpage';
 import Homepage from './pages/home/homepage';
 import WhyChooseUs from './pages/WhyChooseUs';
 import Resting from './pages/restingpoints/Resting';
+
 function App() {
   return (
     <div className="App">
-    <Homepage></Homepage>
+    <Vehical></Vehical>
        
        
     </div>
