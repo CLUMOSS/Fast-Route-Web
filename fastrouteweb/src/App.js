@@ -11,6 +11,8 @@ import AboutUs from './pages/about/aboutpage';
 import Homepage from './pages/home/homepage';
 import WhyChooseUs from './pages/WhyChooseUs';
 import Resting from './pages/restingpoints/Resting';
+import LorryBooking from './pages/lorryBooking/LorryBooking';
+
 function App() {
   return (
     <div className="App">
