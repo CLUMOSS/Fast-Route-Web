@@ -9,12 +9,14 @@ import Washingpg from './pages/washingpts/washingpage';
 import Career from './pages/careers/career';
 import AboutUs from './pages/about/aboutpage';
 import Homepage from './pages/home/homepage';
-
+import Point from './pages/pointpickup/point';
+import Breakdown from './pages/breakdown/breakdown';
+import Pointpg from './pages/pointpickup/pointpage';
+import Breakpg from './pages/breakdown/breakdownpg';
 function App() {
   return (
-    <div className="App">
-      {/* <Homepage></Homepage> */}
-      <Washingpg></Washingpg>
+    <div className="">
+      <Homepage></Homepage>
     </div>
   );
 }
