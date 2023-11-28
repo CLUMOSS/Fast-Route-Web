@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+
+
+.insurance{
+    background-color:  #F1E6DF;
+    padding-bottom: 30px;
+}
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 5%;
+   
+}
+
+.carr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+}
+
+
+.book-form{
+    display: flex;
+    padding-top: 70px;
+}
+
+.book-inputs{
+    margin-left: 90px;
+}
+
+form{
+    display: flex ;
+    flex-direction: column;
+}
+
+.form-head{
+    text-align: start;
+    margin-left: 80px;
+}
+
+.in{
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid;
+    display: flex;
+width: 695px;
+height: 50px;
+padding: 13px 50px 13px 22px;
+align-items: center;
+flex-shrink: 0;
+}
+
+.in2{
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid;
+    display: flex;
+width: 220px;
+height: 50px;
+padding: 13px 15px 13px 22px;
+align-items: center;
+flex-shrink: 0;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    display: flex;
+}
+.btton{
+    margin-top: 40px;
+    display: inline-flex;
+padding: 10px 20px;
+width: 20%;
+justify-content: center;
+color: white;
+align-items: center;
+gap: 10px;
+border-radius: 10px;
+border: none;
+background-color:  #724E31;
+
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.box{
+    position: absolute;
+    top: 80%;
+    right: 0px;
+}
+
+
+.insurance-head{
+    display: flex;
+    padding-top: 40px ;
+}  
+.head{
+    text-align: start;
+    padding-left: 80px;
+}
+.head-img{
+    margin-left: 25%;
+    margin-right: 10px;
+    color: var(--Gray, #5C5C5C);
+text-align: justify;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+
+.head-para{
+    flex-shrink: 0;
+    color: #5C5C5C;
+text-align: justify;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
