@@ -35,7 +35,7 @@ const AboutUsSection = () => {
                 </span>
    , we bridge the gap between businesses and transporters by offering a platform that harbors collaboration, reliability, and speed.
    <p>       </p>
-   <p>                We understand that the timely and secure delivery of products is essential for businesses to thrive in today's competitive market.
+   <p style={{ color: 'var(--Gray, #5C5C5C)', textAlign: 'justify', fontFamily: '  ', fontSize: '28px', fontWeight: 400, lineHeight: 'normal' }}>                We understand that the timely and secure delivery of products is essential for businesses to thrive in today's competitive market.
                 Our vision is to empower businesses with a dependable network of transporters, ensuring their goods reach their customers in a timely and cost-effective manner, thereby revolutionizing the way to form connections.
 </p>
               </p>
