@@ -92,4 +92,13 @@
     height: auto;
     margin-right: 10px; /* Adjust the margin as needed */
   }
+  .signin-link {
+    color: #724E31;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .signin-link:hover {
+    color: burlywood;
+  }
   
