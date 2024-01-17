@@ -71,9 +71,9 @@ const Insurance = () => {
 
             </div>
             </form>
-            <div className="book-image">
+            {/* <div className="book-image">
               <img src="/car.png" alt="car" className="box"></img>
-            </div>
+            </div> */}
             
         </div>
         </div>

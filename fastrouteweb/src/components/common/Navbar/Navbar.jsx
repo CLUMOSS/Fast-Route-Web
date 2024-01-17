@@ -32,15 +32,17 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/contact" className="nav-item px-3">
+          <Link to="/contact-page" className="nav-item px-3">
             Contact Us
           </Link>
         </li>
       </ul>
-
       <div className="col-md-3 text-end">
-        <button className="login">Login</button>
-      </div>
+    <Link to="/signin">
+      <button className="login">Login</button>
+    </Link>
+  </div>
+
     </header>
     );
 }

@@ -2,6 +2,8 @@
 import React from 'react';
 import './styles.css'; // Import your local styles
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from "react-router-dom";
+
 const SignUp = () => {
   return (
     <div className="container custom-container" style={{ backgroundColor: 'white', width:'100%' }}>
@@ -163,18 +165,18 @@ const SignUp = () => {
           >
             Already a customer?
           </p>
-          <p
-            style={{
-              color: '#724E31',
-              fontFamily: 'Inter',
-              fontSize: '15px',
-              fontStyle: 'normal',
-              fontWeight: '800',
-              lineHeight: 'normal',
-            }}
-          >
-            Sign in
-          </p>
+          <p style={{
+  color: '#724E31',
+  fontFamily: 'Inter',
+  fontSize: '15px',
+  fontStyle: 'normal',
+  fontWeight: '800',
+  lineHeight: 'normal',
+}}>
+  <Link to="/signin" style={{ color: '#724E31', textDecoration: 'none' }}>
+    <span className="signin-link">Sign in</span>
+  </Link>
+</p>
         </div>
       </form>
     </div>

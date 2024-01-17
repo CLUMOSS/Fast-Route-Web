@@ -1,15 +1,17 @@
-import SignUp from "./signup";
-const SignPG = () => {
+import './signin.css';
+import Navbar from "../../components/common/Navbar/Navbar";
+import SignIn from "./signin";
+const SignInPG = () => {
     return (
               <div className="">
                 <header className="App-header">
                   <a>
-                  <SignUp></SignUp>
+                  <SignIn></SignIn>
                   </a>
           
                 </header>
               </div>
             );
           }
-export default SignPG;
+export default SignInPG;
           

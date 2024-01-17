@@ -1,12 +1,11 @@
 import React from 'react';
-import Navbar from '../components/common/Navbar/Navbar';
+import Navbar from '../../components/common/Navbar/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import '../styles/ContactUs.css';
-
+import '../../styles/ContactUs.css';
+import Footer from '../../components/common/Footer/footer';
 const ContactUs = () => {
     return(
         <div>
-        <Navbar></Navbar>
         <div className = "contact">
         <img src = "/Receiver.png" alt = "receiver"/>
             <div className = "main my-5 mx-5 px-5">
@@ -65,6 +64,7 @@ const ContactUs = () => {
                 <br/><br/>
                 <button className = "about mx-3" type = "submit"><div className='aboutText'>Enquire</div></button>
             </form>
+            
          </div>
         <div className = "col-5">
             <img src = "/enquiry.png" alt = "question area"/>

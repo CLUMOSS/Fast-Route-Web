@@ -1,6 +1,7 @@
 // src/pages/SignIn.jsx
 import React from 'react';
 import './signin.css'; // Import your local styles
+import { Link } from "react-router-dom";
 
 const SignIn = () => {
   return (
@@ -78,8 +79,14 @@ const SignIn = () => {
         </div>
 
         <div className='create-acc'>
-            <p className='create-account'>Don't have a account? <b><span style={{ color: '#724E31' }}>Create account</span></b></p>
-        </div>
+  <p className='create-account'>
+    Don't have an account? <b>
+      <Link to="/signup" style={{ color: '#724E31', textDecoration: 'none' }}>
+        <span className="create-link">Create account</span>
+      </Link>
+    </b>
+  </p>
+</div>
         
         </form>
     </div>
