@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { Form, Button, Image } from 'react-bootstrap';
+import { Form, Image } from 'react-bootstrap';
 import CustomButton from '../../components/button/button';
 import { InputGroup, FormControl, DropdownButton, Dropdown } from 'react-bootstrap';
 
@@ -96,18 +96,18 @@ const Washing = () => {
 
           <Form.Group className="mb-3">
   <Form.Label></Form.Label>
-  <InputGroup style={{width:'188px'}}>
+  <InputGroup style={{width:'188px' , marginTop:'0px'}}>
     <FormControl type="text" placeholder="Type Of Vehicle" />
     <DropdownButton
       variant="outline-secondary"
       title={
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
+          width="10"
+          height="10"
           fill="currentColor"
           className="bi bi-chevron-down"
-          viewBox="0 0 16 16"
+          viewBox="0 0 10 1"
         >
           <path
             fillRule="evenodd"
@@ -121,7 +121,7 @@ const Washing = () => {
       <Dropdown.Item href="#/action-3">Truck</Dropdown.Item>
     </DropdownButton>
   </InputGroup>
-</Form.Group>          <div style={{position:'relative', right:'220px',top:'40px'}}>
+</Form.Group>          <div style={{position:'relative', left:'10px',top:'40px'}}>
           <CustomButton></CustomButton>
 
           </div>

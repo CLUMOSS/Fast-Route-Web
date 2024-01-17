@@ -1,4 +1,3 @@
-import Navbar from "../../components/common/Navbar/Navbar";
 import SignUp from "./signup";
 const SignPG = () => {
     return (
