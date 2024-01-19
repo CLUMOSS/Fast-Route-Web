@@ -1,9 +1,9 @@
-
 import Point from "./point";
 const Pointpg = () => {
     return (
               <div className="">
-<Point></Point>                  
+<Point></Point>                   
+=======
               </div>
             );
           }
