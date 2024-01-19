@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+
+.about{
+    background-color: #F1E6DF;
+    padding: 20px;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.btn{
+    color: var(--White, #FFF);
+text-align: justify;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}

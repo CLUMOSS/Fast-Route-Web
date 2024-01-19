@@ -1,5 +1,4 @@
 import React from 'react';
-
 import RestingPoints from './RestingPoints';
 
 const Resting = () =>{
