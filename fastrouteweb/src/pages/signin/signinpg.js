@@ -1,5 +1,4 @@
 import './signin.css';
-import Navbar from "../../components/common/Navbar/Navbar";
 import SignIn from "./signin";
 const SignInPG = () => {
     return (
