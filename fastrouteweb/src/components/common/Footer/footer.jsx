@@ -53,11 +53,11 @@ const Footer = () => {
       <div className="column2" style={{ marginTop: '35px' }}>
         {/* Additional Services */}
         <ul className="footer-links">
-          <li><Link to="/intercity-loads">Drop of loads intercity</Link></li>
+          <li><Link to="/point-pickup">Drop of loads intercity</Link></li>
           <li><Link to="/breakdown-assistance">Breakdown assistance 24/7</Link></li>
           <li><Link to="/washing-points">Vehicle Washing points</Link></li>
           <li><Link to="/resting-points">Vehicle Resting points</Link></li>
-          <li><Link to="/service-points">Vehicle Service points</Link></li>
+          <li><Link to="/washing-points">Vehicle Service points</Link></li>
         </ul>
       </div>
     </footer>

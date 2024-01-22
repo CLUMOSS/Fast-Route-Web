@@ -1,0 +1,88 @@
+/* Washing.css */
+
+.services-heading {
+    display: flex;
+    align-items: center;
+  }
+  
+  .services-heading h1 {
+    color: var(--Black, #000);
+    font-family: '';
+    font-size: 4vw; /* Adjust font size for responsiveness */
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+  
+  .services-heading span {
+    color: '#523B29';
+    font-family: '';
+    font-size: 3vw; /* Adjust font size for responsiveness */
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .services-paragraph {
+    color: var(--Gray, #5C5C5C);
+    font-family: '';
+    font-size: 1.5vw; /* Adjust font size for responsiveness */
+    text-align: justify;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .vertical-line {
+    color: '#523B29';
+    font-family: '';
+    font-size: 5vw; /* Adjust font size for responsiveness */
+    font-weight: 700;
+    line-height: normal;
+    border-left: 2px solid #523B29;
+    height: 50px; /* Adjust height as needed */
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+  
+  .feature-container {
+    width: 90%; /* Adjust width as needed */
+    gap: 25px;
+  }
+  
+  .feature-heading {
+    color: var(--Black, #000);
+    font-family: '';
+    font-size: 3vw; /* Adjust font size for responsiveness */
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .feature-paragraph {
+    color: var(--Gray, #5C5C5C);
+    font-family: '';
+    font-size: 2vw; /* Adjust font size for responsiveness */
+    text-align: justify;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .online-booking-heading {
+    color: var(--Black, #000);
+    font-family: 'Inter';
+    font-size: 2.5vw; /* Adjust font size for responsiveness */
+    font-weight: 600;
+    text-align: left;
+  }
+  
+  .button-container {
+    position: relative;
+    left: 10px;
+    top: 40px;
+  }
+  
+  .service-image {
+    width: 60%; /* Adjust width as needed */
+    height: auto; /* Automatically adjust height */
+    flex-shrink: 0;
+    position: relative;
+    right: -56px;
+  }
+  
