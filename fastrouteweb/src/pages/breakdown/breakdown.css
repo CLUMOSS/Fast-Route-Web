@@ -1,0 +1,108 @@
+/* Breakdown.css */
+
+.breakdown-heading {
+    color: var(--Black, #000);
+    font-family: '';
+    font-size: 5vw; /* Adjust font size for responsiveness */
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .vertical-line {
+    color: #523B29;
+    font-family: '';
+    font-size: 5vw; /* Adjust font size for responsiveness */
+    font-weight: 700;
+    line-height: normal;
+    border-left: 2px solid #523B29;
+    height: 50px; /* Adjust height as needed */
+    margin-right: 20px; /* Adjust margin as needed */
+  }
+  
+  .breakdown-paragraph {
+    color: var(--Black, #000);
+    font-family: '';
+    font-size: 2.5vw; /* Adjust font size for responsiveness */
+    text-align: justify;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .knowledge-base-heading {
+    color: var(--Black, #000);
+    font-family: 'Inter';
+    font-size: 4vw; /* Adjust font size for responsiveness */
+    font-weight: 600;
+    line-height: normal;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .knowledge-base-paragraph {
+    color: var(--Gray, #5C5C5C);
+    text-align: justify;
+    font-family: 'Inter';
+    font-size: 1.5vw; /* Adjust font size for responsiveness */
+    font-weight: 400;
+    line-height: normal;
+    width: 60%;
+  }
+  
+  .breakdown-column {
+    position: relative;
+    left: 5%; /* Adjust left position as needed */
+  }
+  
+  .breakdown-icon-container {
+    display: inline-flex;
+    height: 10vw; /* Adjust height as needed */
+    padding: 0px 5vw 0px 5vw; /* Adjust padding as needed */
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 0.5px solid var(--Black, #000);
+    background: var(--White, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    top: 1rem;
+    margin-bottom: 1rem; /* Adjust margin as needed */
+  }
+  
+  .breakdown-icon-text {
+    margin: 0;
+    color: #000;
+    font-family: 'Inter';
+    font-size: 1.5vw; /* Adjust font size for responsiveness */
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .how-can-we-help-heading {
+    color: #000;
+    font-family: 'Inter';
+    font-size: 4vw; /* Adjust font size for responsiveness */
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .how-can-we-help-box {
+    width: 20vw; /* Adjust width as needed */
+    height: 12vw; /* Adjust height as needed */
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 5px solid #000;
+    background: #D0B5B5;
+    margin-bottom: 1rem; /* Adjust margin as needed */
+  }
+  @media (max-width: 768px) {
+    /* Styles specific to smaller screens */
+    .videoic {
+      width: 10%; /* Adjust as needed */
+      height: auto; /* Adjust as needed */
+      }
+  
+  }
+
+  

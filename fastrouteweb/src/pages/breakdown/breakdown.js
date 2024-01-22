@@ -2,25 +2,24 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import './breakdown.css'; // Import your CSS file
 
 const Breakdown = () => {
   return (
-    <Container fluid className="bg py-5" style={{ paddingLeft: '3%', paddingRight: '3%' ,backgroundColor:'#F1E6DF'}}>
+    <Container fluid className="bg py-5" style={{ paddingLeft: '3%', paddingRight: '3%', backgroundColor: '#F1E6DF' }}>
       <Row className="align-items-center">
         <Col md={6} style={{ textAlign: 'left' }}>
           <div>
-            <h1 style={{ color: 'var(--Black, #000)', fontFamily: '', fontSize: '30px', fontWeight: 500, lineHeight: 'normal' }}>
+            <h1 className="breakdown-heading">
               Breakdown Assistance 24/7
             </h1>
           </div>
-
           {/* Left side content */}
         </Col>
         <Col md={6} className="d-flex align-items-center">
           {/* Right side content */}
-          <span style={{ color: '#523B29', fontFamily: '', fontSize: '50px', fontWeight: 700, lineHeight: 'normal' }}>|</span>
-          <p style={{ color: 'var(--Black, #000)', fontFamily: '', fontSize: '18px', textAlign: 'justify', fontWeight: 400, lineHeight: 'normal' }}>
-            {/* Replace this with your actual content  */}
+          <span className="vertical-line"></span>
+          <p className="breakdown-paragraph">
             We offer comprehensive vehicle insurance services tailored to meet the unique needs of our clients.
           </p>
         </Col>
@@ -30,32 +29,32 @@ const Breakdown = () => {
       <Row className="mt-5">
         {/* First Column */}
         <Col md={4} className="d-flex flex-column align-items-start">
-          <div style={{ color: 'var(--Black, #000)', fontFamily: 'Inter', fontSize: '60px', fontStyle: 'normal', fontWeight: 600, lineHeight: 'normal', width: '513px' ,textAlign:'left' }}>
+          <div className="knowledge-base-heading">
             24/7 live chat support if you need a hand
           </div>
-          <div style={{ color: 'var(--Gray, #5C5C5C)', textAlign: 'justify', fontFamily: 'Inter', fontSize: '25px', fontWeight: 400, lineHeight: 'normal', width: '443px' }}>
+          <div className="knowledge-base-paragraph">
             If you ever need a hand, our team is here to help & usually responds on live chat within a minute
           </div>
         </Col>
 
         {/* Second Column */}
-        <Col md={4} className="d-flex flex-column align-items-center" style={{position:'relative',left:"55px"}}>
-          <div style={{ display: 'inline-flex', height: '137px', padding: '0px 88px 0px 89px', justifyContent: 'center', alignItems: 'center', flexShrink: 0, borderRadius: '10px', border: '0.5px solid var(--Black, #000)', background: 'var(--White, #FFF)', boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25)' ,position:'relative' ,top: '-1rem' }}>
-          <p style={{ margin: '0', color: '#000', fontFamily: 'Inter', fontSize: '28px', fontStyle: 'normal', fontWeight: 500, lineHeight: 'normal' }}>Knowledge Base </p>
+        <Col md={4} className="d-flex flex-column align-items-center breakdown-column">
+          <div className="breakdown-icon-container">
+            <p className="breakdown-icon-text">Knowledge Base</p>
           </div>
-          <div style={{ display: 'inline-flex', height: '137px', padding: '0px 88px 0px 89px', justifyContent: 'center', alignItems: 'center', flexShrink: 0, borderRadius: '10px', border: '0.5px solid var(--Black, #000)', background: 'var(--White, #FFF)', boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25)' ,position:'relative' ,top: '1rem'}}>
-          <p style={{ margin: '0', color: '#000', fontFamily: 'Inter', fontSize: '28px', fontStyle: 'normal', fontWeight: 500, lineHeight: 'normal' }}>24/7 Live Chat Support</p>
+          <div className="breakdown-icon-container">
+            <p className="breakdown-icon-text">24/7 Live Chat Support</p>
           </div>
-          <div style={{ display: 'inline-flex', height: '137px', padding: '0px 88px 0px 89px', justifyContent: 'center', alignItems: 'center', flexShrink: 0, borderRadius: '10px', border: '0.5px solid var(--Black, #000)', background: 'var(--White, #FFF)', boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25)' ,position:'relative' ,top: '2rem'}}>
-          <p style={{ margin: '0', color: '#000', fontFamily: 'Inter', fontSize: '28px', fontStyle: 'normal', fontWeight: 500, lineHeight: 'normal' }}>Video Guides</p>
+          <div className="breakdown-icon-container">
+            <p className="breakdown-icon-text">Video Guides</p>
           </div>
         </Col>
 
-        <Col md={4} className="d-flex flex-column align-items-center" style={{ position: 'relative', left: '26px' }}>
-          <div style={{ display: 'inline-flex', padding: '16px 27px 60px 28px', flexDirection: 'column', alignItems: 'center', gap: '56px', borderRadius: '10px', border: '0.5px solid var(--Black, #000)', background: 'var(--White, #FFF)', boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset', position: 'relative', top: '-1rem' }}>
-            <p style={{ margin: '0', color: '#000', fontFamily: 'Inter', fontSize: '28px', fontStyle: 'normal', fontWeight: 500, lineHeight: 'normal' }}>How can we help you?</p>
-
-            <div style={{ width: '229px', height: '139px', flexShrink: 0, borderRadius: '8px', border: '5px solid #000', background: '#D0B5B5' }}>
+        <Col md={4} className="d-flex flex-column align-items-center breakdown-column">
+          <div className="how-can-we-help-heading">
+            How can we help you?
+          </div>
+          <div className="videoic"   style={{ width: '229px', height: '139px', flexShrink: 0, borderRadius: '8px', border: '5px solid #000', background: '#D0B5B5' }}>
               <svg xmlns="http://www.w3.org/2000/svg" width="60" height="63" viewBox="0 0 60 63" fill="none" style={{position: "relative",top: '29px',
     left:'63px' 
 }}>
@@ -63,9 +62,8 @@ const Breakdown = () => {
                 <path d="M54.4307 28.2398L20.7756 6.96989C20.2081 6.61093 19.5583 6.41497 18.893 6.40224C18.2278 6.38952 17.5713 6.56048 16.9915 6.89749C16.4171 7.22926 15.9386 7.7131 15.6053 8.29925C15.2719 8.88539 15.0957 9.55269 15.0947 10.2325V52.7675C15.0991 53.7873 15.4952 54.7635 16.196 55.4817C16.8968 56.1998 17.845 56.6011 18.8321 56.5972C19.5211 56.5969 20.1967 56.4007 20.7849 56.0301L54.4307 34.7602C54.9716 34.4197 55.4185 33.9412 55.7287 33.3706C56.0388 32.8001 56.2017 32.1568 56.2017 31.5024C56.2017 30.8481 56.0388 30.2047 55.7287 29.6342C55.4185 29.0637 54.9716 28.5852 54.4307 28.2446V28.2398ZM18.8321 52.7216V10.2639L52.4289 31.5L18.8321 52.7216Z" fill="black" />
               </svg>
             </div>
-          </div>
-          <div style={{ display: 'inline-flex', height: '137px', padding: '0px 88px 0px 89px', justifyContent: 'center', alignItems: 'center', flexShrink: 0, borderRadius: '10px', border: '0.5px solid var(--Black, #000)', background: 'var(--White, #FFF)', boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25)' }}>
-            <p style={{ margin: '0', color: '#000', fontFamily: 'Inter', fontSize: '28px', fontStyle: 'normal', fontWeight: 500, lineHeight: 'normal' }}>Email Support</p>
+          <div className="breakdown-icon-container">
+            <p className="breakdown-icon-text">Email Support</p>
           </div>
         </Col>
       </Row>

@@ -1,0 +1,195 @@
+/* Add this to your styles */
+
+/* Adjustments for Point component */
+
+/* First Section */
+.point-heading1 {
+    color: var(--Black, #000);
+    font-family: '';
+    font-size: 5vw;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .point-heading2 {
+    color: var(--Black, #000);
+    font-family: '';
+    font-size: 3.5vw;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .point-author {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .point-author h1 {
+    color: var(--Black, #000);
+    font-family: 'Inter';
+    font-size: 2.5vw;
+    font-weight: 600;
+    line-height: normal;
+    width: 250px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .author-arrow {
+    width: 37px;
+    height: 37px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: var(--Light-Gray, #E7E7E7);
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .author-arrow svg {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Right side content */
+  .point-divider {
+    color: #523B29;
+    font-size: 5vw;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .point-paragraph {
+    color: var(--Gray, #5C5C5C);
+    font-size: 2vw;
+    text-align: justify;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  /* Comment Box */
+  .comment-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    position: relative;
+    left: 25px;
+  }
+  
+  .comment-svg {
+    width: 28px;
+    height: 117px;
+    flex-shrink: 0;
+    stroke: #D0B5B5;
+    stroke-width: 5px;
+  }
+  
+  .comment-box-svg {
+    width: 139px;
+    height: 50px;
+    flex-shrink: 0;
+  }
+  
+  .comment-time-box {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 2px solid #2393D1;
+    border-radius: 5px;
+    padding: 5px;
+    height: 25px;
+    width: 61px;
+  }
+  
+  .comment-time-box p {
+    color: #2393D1;
+    text-align: justify;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+  }
+  
+  .comment-address {
+    margin-top: 20px;
+    text-align: left;
+    font-family: 'Inter';
+    font-size: 2vw;
+    color: var(--Gray, #5C5C5C);
+    position: relative;
+    left: 49px;
+  }
+  
+  /* Get Directions Button */
+  .get-directions-button {
+    display: inline-flex;
+    padding: 19px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: var(--Medium-Brown, #724E31);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .get-directions-button p {
+    color: white;
+    font-family: 'Inter';
+    font-size: 2vw;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+  }
+  
+  /* Delivery Image */
+  .delivery-image {
+    width: 800px;
+    height: 800 px;
+    flex-shrink: 0;
+    position: relative;
+    top: -687px;
+    left: 390px;
+  }
+  
+  /* New Section */
+  .left-image {
+    width: 614px;
+    height: 410px;
+    flex-shrink: 0;
+  }
+  
+  .text-on-right h1 {
+    color: var(--Black, #000);
+    font-family: 'Inter';
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+  }
+  
+  .text-on-right h2 {
+    color: var(--Dark-Brown, #523B29);
+    font-family: 'Inter';
+    font-size: 3.5vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+  }
+  @media (max-width: 768px) {
+    /* Styles specific to smaller screens */
+    /* Adjust the position of elements or add new styles for smaller screens */
+    .your-element-class {
+      /* Your styles for smaller screens go here */
+      /* For example: */
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    /* Add more styles for other elements as needed */
+  }
+  

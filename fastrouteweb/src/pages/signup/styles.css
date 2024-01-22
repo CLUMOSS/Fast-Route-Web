@@ -84,6 +84,9 @@
     background-color: #FFFFFF; /* Set background color */
     color: #000000; /* Set text color */
     cursor: pointer;
+    max-width: 300px;
+    margin-bottom: 20px;
+  
   }
   
   /* Apply styles to Google logo */
@@ -101,4 +104,67 @@
   .signin-link:hover {
     color: burlywood;
   }
-  
+  /* Add this to your existing styles.css file or create a new one */
+
+/* Google Sign Up Button and "or" Text */
+
+.mb-3 .mx-2 {
+  font-size: 18px;
+}
+
+.mb-3 svg {
+  width: 100%;
+}
+
+/* Input Fields and Date of Birth */
+.input-heading {
+  font-size: 16px;
+}
+
+.input-box {
+  font-size: 14px;
+}
+
+.password-input {
+  position: relative;
+}
+
+.hide-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+/* Button Row */
+.custom-button {
+  font-size: 18px;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+/* Terms of Service and Privacy Policy */
+.mt-4 p {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.mt-2 svg {
+  width: 100%;
+}
+
+/* Already a Customer & Sign In */
+.mt-2 p {
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+.mt-2 .signin-link {
+  font-weight: 800;
+}
