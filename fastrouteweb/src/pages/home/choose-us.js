@@ -23,7 +23,7 @@ const WhyChooseUsSection = () => {
             <div className="text-center">
               {/* Image with Question Mark */}
               <img
-                src="/group.svg" // Replace with the actual image URL
+                src="/Group.svg" // Replace with the actual image URL
                 alt="Question Mark Image"
                 className="img-fluid"
                 style={{ width: '46.667px', height: '70px', flexShrink: 0, marginBottom: '-2rem' ,paddingleft:"-21px"}} 
