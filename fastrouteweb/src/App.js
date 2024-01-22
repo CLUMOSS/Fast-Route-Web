@@ -12,7 +12,6 @@ function App() {
     <Router>
         <Navbar></Navbar>
       <AppRoutes />
-      <Footer></Footer>
     </Router>
   );
 }
