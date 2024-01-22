@@ -3,6 +3,7 @@ const Pointpg = () => {
     return (
               <div className="">
 <Point></Point>                   
+=======
               </div>
             );
           }
