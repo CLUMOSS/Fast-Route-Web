@@ -18,25 +18,25 @@ const HeaderSection = () => {
           </div>
           <div className="profile-images" style={{ position: 'relative', bottom: '128px', left: '6%', top:'' , transform: 'translateY(169px)', display: 'flex' }}>
   <img
-    src="/Profile-pic-2.png" // Replace with actual image URL
+    src="/Profile-Pic-2.png" // Replace with actual image URL
     alt="Profile Image 1"
     className="img-fluid  " 
     style={{ width: '80px', height: '80px', flexShrink: 0, borderRadius: '50%', margin: '-21px -39px 0 0', position: 'relative', zIndex: 1 }}
   />
   <img
-    src="/Profile-pic-3.png" // Replace with actual image URL
+    src="/Profile-Pic-3.png" // Replace with actual image URL
     alt="Profile Image 2"
     className="img-fluid"
     style={{ width: '80px', height: '80px', flexShrink: 0, borderRadius: '50%', margin: '-20px -38px 0 0', position: 'relative', zIndex: 2 }}
   />
   <img
-    src="/Profile-pic-4.png" // Replace with actual image URL
+    src="/Profile-Pic-4.png" // Replace with actual image URL
     alt="Profile Image 3"
     className="img-fluid"
     style={{ width: '80px', height: '80px', flexShrink: 0, borderRadius: '50%', margin: '-20px -36px 0 0', position: 'relative', zIndex: 3 }}
   />
   <img
-    src="/Profile-pic-1.png" // Replace with actual image URL
+    src="/Profile-Pic-1.png" // Replace with actual image URL
     alt="Profile Image 4"
     className="img-fluid"
     style={{ width: '80px', height: '80px', flexShrink: 0, borderRadius: '50%', margin: '-20px 0 0 0', position: 'relative', zIndex: 4 }}
@@ -51,7 +51,7 @@ const HeaderSection = () => {
               <h3>50k+</h3>
               <p>customers</p>
             </div>
-          </div>
+          </div> 
         </Col>
 
         <Col lg={6}>
