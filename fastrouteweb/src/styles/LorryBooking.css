@@ -50,6 +50,8 @@
     border-radius: 10px;
     background: #724E31;
     border: 0.1px solid #724E31;
+    position: relative;
+    left: 10%;    
 }
 
 .bookText{
@@ -61,13 +63,143 @@
 }
 
 .image{
-   width: 103%;
+   width: 90%;
    right: 0;
    bottom: 0;
-   height: 470px;
-
+   height: 101%;
+   position: relative;
+    left: 46%;
+    top: -98%
 }
 
 .heading{
     text-align: left;
 }
+/* Responsive styles for medium-sized screens */
+@media (max-width: 992px) {
+    .heading {
+      text-align: center;
+    }
+  
+    .basicText {
+      text-align: center;
+    }
+  
+    .form {
+      text-align: center;
+    }
+  
+    .cal {
+      margin-top: 2rem;
+      
+    }
+  
+    .image {
+        width: 103%;
+        right: 0;
+        bottom: 0;
+        height: 470px;
+        position: relative;
+        top: -98%;
+        left: 45%;
+      }
+        }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .booking {
+      padding: 2rem 0;
+    }
+  
+    .row.flex {
+      flex-direction: column;
+    }
+  
+    .heading {
+      margin-bottom: 1rem;
+    }
+  
+    .cal {
+      margin-top: 1rem;
+      position: relative;
+      left:10%;
+    }
+    .booking {
+        background-color: #f1e6df;
+        width: 100%;
+        height: auto;
+        top: 86px;
+        padding-bottom: 30px; /* Adjusted for mobile screens */
+      }
+      
+      .basicText {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        color: #5c5c5c;
+      }
+      
+      .bar {
+        color: #523b29;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: left;
+      }
+      
+      .form {
+        text-align: left;
+      }
+      
+      .field {
+        border: 0.5px solid white;
+        width: 100%; /* Make form fields 100% width */
+        margin-bottom: 10px; /* Adjusted margin for mobile screens */
+      }
+      
+      #lorry {
+        width: 100%;
+        height: 54px;
+        padding: 15px 10px; /* Adjusted padding */
+        border-radius: 10px;
+        border: 0.1px solid white;
+        text-align: justify;
+        font-weight: bold;
+        margin-bottom: 10px; /* Adjusted margin for mobile screens */
+      }
+      
+      .bookNow {
+        width: 40%;
+        height: 60px;
+        padding: 19px 50px; /* Adjusted padding */
+        border-radius: 10px;
+        background: #724e31;
+        border: 0.1px solid #724e31;
+        position: relative;
+        left: 11%;
+      }
+      
+      .bookText {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        color: white;
+      }
+      
+      .image {
+        width: 100%;
+        height: auto;
+        position: static;
+        top: auto;
+        left: auto;
+      }
+          
+      .heading {
+        text-align: left;
+      }
+
+      
+  }
+  
