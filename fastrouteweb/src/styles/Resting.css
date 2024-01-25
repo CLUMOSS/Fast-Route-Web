@@ -108,3 +108,34 @@
     height: 300px;
 }
 
+@media (max-width: 800px) {
+    .head, .text1{
+       flex-direction: column;
+    }
+
+   .bar, .text2{
+    display: none;
+   }
+
+   .field{
+    width: 10rem;
+   }
+
+   .resting{
+    margin: 0;
+    padding: 0;
+   }
+
+   .pincodeButton{
+    width: 10rem;
+   }
+   .locate{
+    width: 10rem;
+   }
+   .l{
+    display: none;
+   }
+   .basic{
+    font-size: 1rem;
+   }
+  }
