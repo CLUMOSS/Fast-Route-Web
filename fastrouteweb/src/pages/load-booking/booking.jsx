@@ -1,6 +1,8 @@
 import React from "react";
 import "./load.css";
 const Booking = () => {
+    const isSmallScreen = () => window.innerWidth <= 768;
+
     return (
         <div className="book">
             {/*-------HEADING-------*/}
@@ -77,41 +79,42 @@ const Booking = () => {
 
     </div>
 
-            {/*-------FORM-------*/}
-        <div className="book-form">
-            <form>
-            <div className="form-head">
-                <h4>Posting Load Details</h4>
+        {/* FORM */}
+      <div className="book-form">
+        <form>
+          <div className="form-head">
+            <h4>Posting Load Details</h4>
+          </div>
+          <div className="book-inputs">
+            <div className="inputs">
+              <input type="text" placeholder="Origin Address" className="in" />
+              <input type="text" placeholder="Destination Address" className="in" />
+              <div className="input">
+                <input type="text" placeholder="Height" className="in2" />
+                <input type="text" placeholder="Width" className="in2" style={{ marginLeft: "1vw" }} />
+                <input type="text" placeholder="Depth" className="in2" style={{ marginLeft: "1vw" }} />
+              </div>
+              <div className="input">
+                <input type="text" placeholder="Cargo Weight [KG]" className="in2" />
+                <input type="text" placeholder="Type Of Cargo" className="in2" style={{ marginLeft: "1vw" }} />
+              </div>
+              <button type="button" className="btn">
+                Post
+              </button>
             </div>
-            <div className="book-inputs">
-                 <div className="inputs">
-                    <input type="text" placeholder="Origin Address" className="in"/>
-                    <input type="text" placeholder="Destination Address" className="in"/>
-                      <div className="input">
-                    <input type="text" placeholder="Height" className="in2"/> 
-                    <input type="text" placeholder="Width" className="in2" style={{marginLeft: '20px'}}/> 
-                    <input type="text" placeholder="Depth" className="in2" style={{marginLeft: '20px'}}/>
-                      </div>
-                      <div className="input">
-                    <input type="text" placeholder="Cargo Weight [KG]" className="in2"/>
-                    <input type="text" placeholder="Type Of Cargo" className="in2" style={{marginLeft: '20px'}}/>
-                      </div>
-                      <button type="button" className="btn">Post</button>
-                 </div>
+          </div>
+        </form>
+{/* Render image conditionally based on screen size */}
+{isSmallScreen() ? (
+          <div className="book-image">
+            <img src="/bos.png" alt="box" className="box"></img>
+          </div>
+        ) : null}
+      </div>
 
-            </div>
-            </form>
-            <div className="book-image">
-              <img src="/bos.png" alt="box" className="box"></img>
-            </div>
-            
-        </div>
-        
-        
-        </div>
-
-
-    )
-}
+      {/* Conditionally render image based on screen size */}
+      </div>
+  );
+};
 
 export default Booking;

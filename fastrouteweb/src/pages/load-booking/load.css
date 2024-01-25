@@ -1,106 +1,175 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.book-head{
-    text-align: start;
-    margin-left: 5%;
-    text-align: justify;
-    margin-top: 2%;
-font-family: Inter;
-font-size: 38px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+.book-head {
+  text-align: start;
+  margin-left: 5%;
+  text-align: justify;
+  margin-top: 2%;
+  font-family: 'Inter', sans-serif;
+  font-size: 2.5vw; /* Adjusted font size for responsiveness */
+  font-weight: 600;
+  line-height: normal;
 }
 
-.book-image{
-   margin-top: 20px;
-   margin-bottom: 20px;
+.book-image {
+  margin-top: 2vw; /* Adjusted margin for responsiveness */
+  margin-bottom: 2vw; /* Adjusted margin for responsiveness */
+
 }
 
-.book-logo{
-    display: flex;
-    margin-top: 70px;
-    justify-content: space-around;
-    margin-left: 80px;
-    margin-right: 80px;
+.book-logo {
+  display: flex;
+  margin-top: 4vw; /* Adjusted margin for responsiveness */
+  justify-content: space-around;
+  margin-left: 5vw; /* Adjusted margin for responsiveness */
+  margin-right: 5vw; /* Adjusted margin for responsiveness */
 }
 
-.lg1{
-    margin-left: 20px;
+.lg1 {
+  margin-left: 2vw; /* Adjusted margin for responsiveness */
 }
 
-.book-form{
-    display: flex;
-    padding-top: 70px;
+.book-form {
+  display: flex;
+  padding-top: 5vw; /* Adjusted padding for responsiveness */
 }
 
-.book-inputs{
-    margin-left: 90px;
+.book-inputs {
+  margin-left: 5vw; /* Adjusted margin for responsiveness */
 }
 
-form{
-    display: flex ;
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-head {
+  text-align: start;
+  margin-left: 5vw; /* Adjusted margin for responsiveness */
+  font-size: 2.2vw; /* Adjusted font size for responsiveness */
+}
+
+.in,
+.in2 {
+  margin-top: 2vw; /* Adjusted margin for responsiveness */
+  border-radius: 8px;
+  display: flex;
+  width: 50vw; /* Adjusted width for responsiveness */
+  height: 3vw; /* Adjusted height for responsiveness */
+  padding: 2vw 5vw; /* Adjusted padding for responsiveness */
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.in2 {
+  width: 14vw; /* Adjusted width for responsiveness */
+  margin-left: 2vw; /* Adjusted margin for responsiveness */
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  display: flex;
+}
+
+.btn {
+  margin-top: 4vw; /* Adjusted margin for responsiveness */
+  display: inline-flex;
+  padding: 1vw 4vw; /* Adjusted padding for responsiveness */
+  width: 20%; /* Adjusted width for responsiveness */
+  justify-content: center;
+  color: white;
+  align-items: center;
+  gap: 1vw; /* Adjusted gap for responsiveness */
+  border-radius: 10px;
+  background: var(--Medium-Brown, #724E31);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.box {
+  position: relative;
+    top: -59%;
+    right: -23px;
+    width: 39vw;
+    height: 80vw 
+}
+
+/* Responsive styles for small screens */
+@media screen and (max-width: 768px) {
+  .book-head {
+    font-size: 5vw;
+  }
+
+  .book-logo {
     flex-direction: column;
+    align-items: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+
+  .lg1 {
+    margin-left: 0;
+    margin-bottom: 2vw;
+  }
+
+  .book-form {
+    padding-top: 5vw;
+  }
+
+  .form-head {
+    margin-left: 2vw;
+    font-size: 4vw;
+  }
+
+  .in,
+  .in2 {
+    width: 80vw;
+    height: 8vw;
+    padding: 4vw 5vw;
+    margin-top: 3vw;
+  }
+
+  .in2 {
+    width: 25vw;
+    margin-left: 0;
+  }
+
+  .btn {
+    margin-top: 6vw;
+    padding: 2vw 6vw;
+    font-size: 4vw;
+  }
+
+  .book-image {
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+  }
+
+  .box {
+    width: 60vw;
+    height: 200vw;
+  }
 }
 
-.form-head{
-    text-align: start;
-    margin-left: 80px;
+/* Responsive styles for medium-sized screens */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .book-head {
+    font-size: 3vw;
+  }
+
+  /* ... (additional adjustments if needed) */
 }
 
-.in{
-    margin-top: 20px;
-    border-radius: 8px;
-    display: flex;
-width: 695px;
-height: 50px;
-padding: 13px 50px 13px 22px;
-align-items: center;
-flex-shrink: 0;
-}
-
-.in2{
-    margin-top: 20px;
-    border-radius: 8px;
-    display: flex;
-width: 220px;
-height: 50px;
-padding: 13px 15px 13px 22px;
-align-items: center;
-flex-shrink: 0;
-}
-
-.inputs{
-    display: flex;
-    flex-direction: column;
-}
-.input{
-    display: flex;
-}
-.btn{
-    margin-top: 40px;
-    display: inline-flex;
-padding: 10px 20px;
-width: 20%;
-justify-content: center;
-color: white;
-align-items: center;
-gap: 10px;
-border-radius: 10px;
-background: var(--Medium-Brown, #724E31);
-
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
-}
-
-.box{
-    position: absolute;
-    top: -10px;
-    right: 0px;
+/* Responsive styles for large screens */
+@media screen and (min-width: 993px) {
+  /* ... (adjustments for large screens if needed) */
 }
