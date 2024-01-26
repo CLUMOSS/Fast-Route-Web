@@ -1,35 +1,31 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import './footer.css';
+import styles from'./footer.module.css';
 
 const Footer = () => {
   return (
-    <footer className="footer-container">
-      <div className="column">
-        {/* 1st Column - Logo */}
-        <img src="/logo2 2.png" alt="Website Logo" className="logo" />
+    <footer className={styles.footerContainer}>
+      <div className={styles.column}>
+        <img src="/logo2 2.png" alt="Website Logo" className={styles.logo} />
       </div>
 
-      <div className="column">
-        {/* 4th Column - Location */}
-        <div className="location">
-          <img src="/location Icon.png" alt="Location Logo" className="location-logo" />
+      <div className={styles.column}>
+        <div className={styles.location}>
+          <img src="/location Icon.png" alt="Location Logo" className={styles.locationLogo} />
           <p>Lorem ipsum dolor sit amet,<br />consectetur adipiscing elit, sed<br />do eiusmod tempor incididunt <br />utlabore et dolore magna aliqua. </p>
         </div>
         <br />
-        <div className="social-links">
+        <div className={styles.socialLinks}>
           <ul style={{ display: 'flex', justifyContent: 'center' }}>
-            <li><img src="Instagram Icon.png" alt="Instagram" className="social-logo" /></li>
-            <li><img src="Facebook Icon.png" alt="Facebook" className="social-logo" /></li>
-            <li><img src="Vector.png" alt="Twitter" className="social-logo" /></li>
+            <li><a href="#"><img src="Instagram Icon.png" alt="Instagram" className={styles.socialLogo} /></a></li>
+            <li><a href="#"><img src="Facebook Icon.png" alt="Facebook" className={styles.socialLogo}/></a></li>
+            <li><a href="#"><img src="Vector.png" alt="Twitter" className={styles.socialLogo}/></a></li>
           </ul>
         </div>
       </div>
 
-      <div className="column">
-        {/* 2nd Column - Overview */}
+      <div className={styles.column}>
         <h3 style={{ fontWeight: 'bold' }}>Overview</h3>
-        <ul className="footer-links">
+        <ul className={styles.footerLinks}>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About Us</Link></li>
           <li><Link to="/careers">Careers</Link></li>
@@ -38,10 +34,9 @@ const Footer = () => {
         </ul>
       </div>
 
-      <div className="column">
-        {/* 3rd Column - Services */}
+      <div className={styles.column2}>
         <h3 style={{ fontWeight: 'bold' }}>Services</h3>
-        <ul className="footer-links">
+        <ul className={styles.footerLinks}>
           <li><Link to="/load-booking">Online load booking</Link></li>
           <li><Link to="/lorry-booking">Lorry Booking</Link></li>
           <li><Link to="/cargo-insurance">Cargo insurance</Link></li>
@@ -50,9 +45,9 @@ const Footer = () => {
         </ul>
       </div>
 
-      <div className="column2" style={{ marginTop: '35px' }}>
-        {/* Additional Services */}
-        <ul className="footer-links">
+      <div className={styles.column2}>
+      <h2 style={{ fontWeight: 'bold' }}>Services</h2>
+        <ul className={styles.footerLinks}>
           <li><Link to="/intercity-loads">Drop of loads intercity</Link></li>
           <li><Link to="/breakdown-assistance">Breakdown assistance 24/7</Link></li>
           <li><Link to="/washing-points">Vehicle Washing points</Link></li>

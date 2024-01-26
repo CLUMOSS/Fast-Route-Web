@@ -1,12 +1,13 @@
-import Header from './header';
-import Values from './values';
-import Opening from "./openings";
+import CareerHeader from "./components/CareerHeader";
+import CareerOpening from "./components/CareerOpenings";
+import CareerValues from "./components/CareerValue";
+
 const Career = () => {
     return(
         <div>
-            <Header></Header>
-            <Values></Values>
-            <Opening></Opening>
+            <CareerHeader />
+            <CareerValues />
+            <CareerOpening />
         </div>
     )
 }

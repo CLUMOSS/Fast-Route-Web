@@ -9,13 +9,13 @@ import Contactpg from './pages/contact/contactpg';
 import Washingpg from './pages/washingpts/washingpage';
 import VEHICLE from './pages/vehicle-insurance/vehicle';
 import SignPG from './pages/signup/signuppage';
-import SignInPG from './pages/signin/signinpg';
 import Resting from './pages/restingpoints/Resting';
 import Pointpg from './pages/pointpickup/pointpage';
 import LorryBooking from './pages/lorryBooking/LorryBooking';
 import Load from './pages/load-booking/load';
 import CargoInsurance from './pages/CargoInsurance/CargoInsurance';
 import Breakpg from './pages/breakdown/breakdownpg';
+import SignInPage from './pages/SignIn/SignInPage';
 const AppRoutes = () => {
   return (
     <Routes>
@@ -26,7 +26,7 @@ const AppRoutes = () => {
       <Route path="/washing-points" element={<Washingpg />} />
       <Route path="/vehicle-insurance" element={<VEHICLE />} />
       <Route path="/signup" element={<SignPG />} />
-      <Route path="/signin" element={<SignInPG />} />
+      <Route path="/signin" element={<SignInPage />} />
       <Route path="/resting-points" element={<Resting />} />
       <Route path="/point-pickup" element={<Pointpg />} />
       <Route path="/lorry-booking" element={<LorryBooking />} />

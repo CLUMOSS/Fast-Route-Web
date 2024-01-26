@@ -1,0 +1,176 @@
+
+/*---------- BookingLogos -----------*/
+
+.bookingLogos{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.bookHead{
+  text-align: start;
+  margin-left: 5%;
+  margin-top: 2%;
+  font-family: Inter;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.bookLogo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: space-evenly;
+ }
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lg1{
+    margin-left: 27px;
+}
+
+.logoName{
+    text-align: center;
+}
+
+
+@media (max-width: 768px){
+    .bookLogo{
+        margin-top: 25px;
+    }
+
+    .logo{
+        margin: 12px;
+    }
+
+    .lg1{
+        width: 40px;
+        height: 40px;
+        margin-left: 26px;
+    }
+
+    .logoName h4{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    
+
+}
+/*---------- FormBooking -----------*/
+
+
+.bookForm{
+    display: flex;
+    margin-top: 55px;
+    margin-bottom: 70px;
+}
+
+form{
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.formHead{
+    text-align: start;
+    margin-left: 80px;
+}
+
+.bookingFormInputs{
+    margin-left: 90px;
+}
+.bookImage{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ 
+.in{
+    margin-top: 20px;
+    border-radius: 8px;
+    display: flex;
+width: 695px;
+height: 50px;
+padding: 13px 50px 13px 22px;
+align-items: center;
+flex-shrink: 0;
+}
+
+.in2{
+    margin-top: 20px;
+    border-radius: 8px;
+    display: flex;
+width: 220px;
+height: 50px;
+padding: 13px 15px 13px 22px;
+align-items: center;
+flex-shrink: 0;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    display: flex;
+}
+.btn{
+    margin-top: 20px;
+padding: 10px 20px;
+width: 20%;
+justify-content: center;
+color: white;
+align-items: center;
+gap: 10px;
+border-radius: 10px;
+background: var(--Medium-Brown, #724E31);
+}
+
+.box{
+    position: absolute;
+    top: -75px;
+    right: 0px;
+}
+
+@media (max-width: 1120px){
+    .in{
+        width: 495px;
+        height: 50px;
+    }
+
+    .in2{
+        width: 120px;
+        height: 50px;
+    }
+
+    .bookImage{
+        display: none;
+    }
+
+    .bookingFormInputs{
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 768px){
+    .in{
+        width: 400px;
+        height: 50px;
+    }
+
+    .in2{
+        width: 95px;
+        height: 50px;
+    }
+
+    .bookImage{
+        display: none;
+    }
+    
+    .bookingFormInputs{
+        margin-left: 20px;
+    }
+}

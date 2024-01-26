@@ -1,13 +1,20 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
-
-*{
-    box-sizing: border-box;
-}
 .container{
-    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: whitesmoke;
 }
-.container-head{
+
+form{
+  background-color: white;
+  padding: 20px;
+  border: 1px solid 7C776E;
+  max-width: 100%;
+}
+.containerHead{
     color: #724E31;
     font-weight: bold;
     text-align: start;
@@ -17,8 +24,7 @@
     margin-left: 20px;
     margin-right: 20px;
 }
-.google-login{
-    
+.googleLogin{
     display: flex;
     height: 32px;
     width: 600px;
@@ -34,7 +40,12 @@
     cursor: pointer;
 }
 
-.google-logo{
+.google{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.googleLogo{
     width: 20px; /* Adjust the width as needed */
     height: auto;
     margin-right: 10px; /* Adjust the margin as needed */
@@ -44,21 +55,20 @@
     font-weight: bold;
     font-size: 20px;
 }
-.dividing-line{
+.dividingLine{
+  display: flex;
     margin: 10px;
-
-    
 }
 
 .inputs{
     margin-left: 30px;
 }
 
-.inputs-2{
+.inputs2{
     margin-left: 30px;
    
 }
-.input-heading {
+.inputHeading {
     display: block;
     width: 100%; /* Make the heading take the full width of its container */
     color: #000;
@@ -70,7 +80,8 @@
     margin-bottom: 5px; /* Adjust margin as needed */
     margin-top: 15px;
   }
-  .input-box {
+
+  .inputBox {
     display: flex;
     width: 95%;
     height: 35px;
@@ -84,23 +95,11 @@
     background: rgba(237, 227, 227, 0.74);
   }
 
-  .hide-icon {
-    position: absolute;
-    top: 58%;
-    right: 33%; /* Adjust the right position as needed */
-    transform: translateY(-50%);
-    cursor: pointer
-  }
-  
-  .password-input {
-    position: relative;
-  }
-  .custom-button {
+  .customButton {
     margin-top: 20px;
     width: 550px;
     height: 33px;
     padding: 5px ;
-    flex-shrink: 0;
     display: block;
     text-align: center;
     border-radius: 5px;
@@ -110,10 +109,27 @@
     color: white; /* You may need to adjust the text color for better visibility */
   }
 
-  .create-acc{
-    margin-top: 10px;
+  .createAcc{
+    margin-top: 35px;
     font-size: 15px;
   }
+.bttn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.bttn button{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background-color:rgba(114, 78, 49, 0.74);
+}
 
   ::placeholder{
     color: #A4A4A4;
@@ -123,3 +139,34 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
   }
+.line{
+  width: 611px;
+  height: 0px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.line svg{
+  width: 617px;
+  height: 6px;
+}
+
+@media (max-width: 1120px){
+  .container{
+    padding: 40px;
+  }
+  .googleLogin{
+    width: 300px;
+    padding: 0;
+  }
+  .customButton{
+    width: 250px;
+  }
+  .line svg{
+    width: 200px;
+    height: 10px;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+}
