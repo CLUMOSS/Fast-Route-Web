@@ -1,13 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Inter;
-}
+/*---------- VEHICLE HEADER -----------*/
 
 
+/*---------- VEHICLE FORM -----------*/
 
 .insurance{
     background-color:  #F1E6DF;
@@ -17,10 +12,7 @@
 .services{
     display: flex;
     justify-content: space-between;
-    margin-top: 3%;
-    margin-left: 10%;
-    margin-right: 5%;
-   
+    align-items: center;
 }
 
 .carr{
@@ -30,21 +22,29 @@
     align-items: center;
     text-align: center;
     border: none;
+    margin-bottom: 20px;
 }
 
+.carr svg{
+    margin-bottom: 20px;
+}
 
 .book-form{
     display: flex;
+    background-color: #F1E6DF;
     padding-top: 70px;
+    max-width: 100%;
 }
 
 .book-inputs{
     margin-left: 90px;
 }
 
-form{
+.forms{
     display: flex ;
     flex-direction: column;
+    background-color: #F1E6DF;
+
 }
 
 .form-head{
@@ -80,9 +80,11 @@ flex-shrink: 0;
     display: flex;
     flex-direction: column;
 }
+
 .input{
     display: flex;
 }
+
 .btton{
     margin-top: 40px;
     display: inline-flex;
@@ -95,7 +97,6 @@ gap: 10px;
 border-radius: 10px;
 border: none;
 background-color:  #724E31;
-
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 
@@ -105,15 +106,17 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
     right: 0px;
 }
 
-
 .insurance-head{
     display: flex;
     padding-top: 40px ;
+    text-align: start;
 }  
+
 .head{
     text-align: start;
-    padding-left: 80px;
+    margin-left: 60px;
 }
+
 .head-img{
     margin-left: 25%;
     margin-right: 10px;
@@ -125,12 +128,82 @@ font-style: normal;
 font-weight: 400;
 }
 
-.head-para{
+.head-para p{
     flex-shrink: 0;
     color: #5C5C5C;
-text-align: justify;
+text-align: start;
 font-family: Inter;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
+}
+
+.service{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px 105px;
+}
+.insurance-head{
+    display: flex;
+}
+
+.card-head h2{
+    text-align: center;
+}
+
+.card-head p{
+    text-align: start;
+}
+
+@media (max-width: 1120px){
+    .insurance-head{
+        padding-right: 15px;
+        flex-direction: column;
+    }
+    .head-img{
+        display: none;
+    }
+    .services{
+        flex-direction: column;
+    }
+    .head-para{
+        margin-left: 60px;
+    }
+    .card-head{
+        padding: 30px;
+    }
+    .card-head h2{
+        margin-right: 50px;
+        font-size: 25px;
+    }
+    .card-head p{
+        display: none;
+    }
+    .book-image{
+        display: none;
+    }
+    .form-head{
+        margin-left: 50px;
+    }
+    .book-inputs{
+        margin-left: 30px;
+    }
+    .in{
+        width: 300px;
+    }
+    .btton{
+        width: 35%;
+    }
+    .carr svg{
+        margin-bottom: 0px;
+    }
+    .book-form{
+        padding-top: 0;
+    }
+    .service{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 20px 30px;
+    }
 }

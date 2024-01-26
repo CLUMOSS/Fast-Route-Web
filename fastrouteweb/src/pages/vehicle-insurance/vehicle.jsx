@@ -1,12 +1,12 @@
-import React from "react";
-import Insurance  from "./insurance";
 
-const VEHICLE = () => {
+import Insurance from './insurance';
+
+const Vehicle = () => {
     return(
         <div>
-        <Insurance></Insurance>
+          <Insurance/>
         </div>
   )        
 }
 
-export default VEHICLE;
+export default Vehicle;
