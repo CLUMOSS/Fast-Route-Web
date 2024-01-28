@@ -15,12 +15,17 @@ const ContactUs = () => {
           </h2>
           <div className="info my-2 py-5">
             <div className="i px-2">
+=======
+          <div className="info my-5 py-5">
+            <div className="i px-5">
               <img src="./Phone Icon.png" alt="phone" />
               <div>
                 <p className = "info-text">+91 87660 457XXX<br /> +91 98765 423XXX</p>
               </div>
             </div>
             <div className="i mx-5 px-2">
+=======
+            <div className="i mx-5 px-5">
               <img src="./Location Icon.png" alt="location" />
               <div>
                 <strong>FastRoute Company</strong>
@@ -66,7 +71,24 @@ const ContactUs = () => {
             </div>
        </div>
        <div className='col-4'>
+      <div className="enquiry row flex">
+        <div className="col-12 col-md-7 py-5">
+          <h2 className="mx-3">For Enquiry</h2>
+          <br />
+          <form>
+            <input className="inputFields" type='text' placeholder='Name' name="name" />
+            <br />
+            <input className="inputFields" type='text' placeholder='Email Id' name="email" />
+            <br />
+            <input className="inputFields" type='text' placeholder='Contact Number' name="contact" />
+            <br />
+            <textarea className="inputFields" name="comment" placeholder="Comment" rows="7" />
+            <br /><br />
+            <button className="about mx-3" type="submit"><div className='aboutText'>Enquire</div></button>
+          </form>
         </div>
+        <div className=" col-12 col-md-5">
+          <img src="/enquiry.png" alt="question area" className = "image"/>        </div>
        <div className='col-4 mt-5'>
         <div className = "request-text border-bottom">Request for Services</div>
         <p className = "request mt-3">Let us know your areas of interest so that we can serve you better</p>

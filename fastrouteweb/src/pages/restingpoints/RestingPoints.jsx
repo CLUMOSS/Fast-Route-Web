@@ -4,6 +4,8 @@ import '../../styles/Resting.css';
 const RestingPoints = () =>{
     return (
         <div className = "r border-bottom py-2" >
+=======
+        <div className = "border-bottom" >
             <div className = "head row flex my-4">
            <h1 className = "col-4 px-5">Resting points</h1>
            
