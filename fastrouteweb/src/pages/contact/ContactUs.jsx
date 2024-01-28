@@ -15,7 +15,7 @@ const ContactUs = () => {
             At FastRoute we bridge the gap between businesses and transporters by offering a platform that harbors collaboration, reliability, and speed.
           </h2>
           <div className="info my-5 py-5">
-            <div className="px-5">
+            <div className="i px-5">
               <img src="./Phone Icon.png" alt="phone" />
               <div>
                 <strong>Phone</strong>
@@ -24,7 +24,7 @@ const ContactUs = () => {
                 <p>+91 87660 457XXX<br /> +91 98765 423XXX</p>
               </div>
             </div>
-            <div className="mx-5 px-5">
+            <div className="i mx-5 px-5">
               <img src="./Location Icon.png" alt="location" />
               <div>
                 <strong>Location <br />FastRoute Company</strong>
@@ -75,8 +75,8 @@ const ContactUs = () => {
             <button className="about mx-3" type="submit"><div className='aboutText'>Enquire</div></button>
           </form>
         </div>
-        <div className="col-12 col-md-5">
-          <img src="/enquiry.png" alt="question area" />
+        <div className=" col-12 col-md-5">
+          <img src="/enquiry.png" alt="question area" className = "image"/>
         </div>
       </div>
     </div>

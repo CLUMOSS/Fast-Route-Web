@@ -1,9 +1,21 @@
 .contact{
     background-color: #F1E6DF;
     margin-top:0px;
-    height: 560px;
+    height: 70%;
     display: flex;
 }
+
+@media (max-width: 800px) {
+    .contact ,.follow {
+      flex-direction: column;
+    }
+    .image{
+        display: none;
+    }
+    .inputFields{
+        width: 12px;
+    }
+  }
 
 .heading{
     font-size: 42px;
@@ -15,7 +27,7 @@
 }
 .main-text{
     color: #5C5C5C;
-    font-size: 28px;
+    font-size: 1.6rem;
     font-weight: 400;
     line-height: 34px;
 }
@@ -25,9 +37,24 @@
     text-align: center;
 }
 
+@media (max-width: 800px) {
+   .heading{
+     font-size: 1.5rem;
+
+   }
+   .main-text{
+     font-size: 1.2rem;
+     margin: 0;
+   }
+    .info{
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+
 .follow{
-    height: 385px;
-    
+    height: 30%;
+    padding-top: 2%;
     box-shadow: 0px 0px 0px 2px  lightgray;
     display: flex;
 }
@@ -49,6 +76,14 @@
     box-shadow: 3px 3px whitesmoke;
 
 }
+
+
+@media (max-width: 800px) {
+   .handle{
+    width: 10rem;
+    padding-bottom: 3%;
+   }
+  }
 
 .handleText{
 font-size: 18px;
@@ -113,10 +148,12 @@ text-align: justified;
 
 .enquiry{
     width:100%;
-    height: 668px;
+    height: 50%;
     background-color:#F1E6DF;
     text-align: left;
     padding-left: 8%;
+    margin-top: 2%;
+    padding: 5%;
 }
 
 .inputFields{
@@ -125,6 +162,15 @@ text-align: justified;
     border-radius: 6px;
     margin: 15px;
     padding: 7px;
-    width: 500px
+    width: 40rem;
 
 }
+
+
+
+@media (max-width: 800px) {
+    .inputFields{
+       width: 15rem;
+    }
+   
+  }

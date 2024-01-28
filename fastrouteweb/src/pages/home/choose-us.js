@@ -42,7 +42,7 @@ const WhyChooseUsSection = () => {
             <div>
               {/* Box 1 */}
               <div style={{ display: 'flex', width: '110%', height: '60px', alignItems: 'center', flexShrink: 0, borderRadius: '10px', border: '1px solid #000', background: 'var(--Cream, #F1E6DF)', boxShadow: '2px 4px 4px 0px rgba(0, 0, 0, 0.10) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25)', marginTop: '20px' ,textAlign:'center'}}>
-                <p style={{ color: '#000', fontFamily: '  ', fontSize: '25px', textAlign: 'justify', fontWeight: 400, lineHeight: 'normal', margin: 0 ,paddingLeft:'80px'}}>
+                <p style={{ color: '#000', fontFamily: '  ', fontSize: '1.5rem', textAlign: 'justify', fontWeight: 400, lineHeight: 'normal', margin: 0 ,padding:'8%'}}>
                   {/* Replace with actual content or lorem ipsum */}
 
                   Efficiency through Digital Integration                </p>
@@ -52,7 +52,7 @@ const WhyChooseUsSection = () => {
               {/* Repeat the structure for three more boxes */}
               {/* Box 2 */}
               <div style={{ display: 'flex', width: '110%', height: '60px', alignItems: 'center', flexShrink: 0, borderRadius: '10px', border: '1px solid #000', background: 'var(--Cream, #F1E6DF)', boxShadow: '2px 4px 4px 0px rgba(0, 0, 0, 0.10) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25)', marginTop: '20px' }}>
-                <p style={{ color: '#000', fontFamily: '  ', fontSize: '25px', textAlign: 'justify', fontWeight: 400, lineHeight: 'normal', margin: 0 ,paddingLeft:'100px'}}>
+                <p style={{ color: '#000', fontFamily: '  ', fontSize: '1.5rem', textAlign: 'justify', fontWeight: 400, lineHeight: 'normal', margin: 0 ,padding:'8%'}}>
                   {/* Replace with actual content or lorem ipsum */}
                   Diverse Transporter Network
                 </p>
@@ -61,14 +61,14 @@ const WhyChooseUsSection = () => {
 
               {/* Box 3 */}
               <div style={{ display: 'flex', width: '110%', height: '60px', alignItems: 'center', flexShrink: 0, borderRadius: '10px', border: '1px solid #000', background: 'var(--Cream, #F1E6DF)', boxShadow: '2px 4px 4px 0px rgba(0, 0, 0, 0.10) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25)', marginTop: '20px' }}>
-                <p style={{ color: '#000', fontFamily: '  ', fontSize: '25px', textAlign: 'justify', fontWeight: 400, lineHeight: 'normal', margin: 0,paddingLeft:'100px' }}>
+                <p style={{ color: '#000', fontFamily: '  ', fontSize: '1.5rem', textAlign: 'justify', fontWeight: 400, lineHeight: 'normal', margin: 0,padding:'8%' }}>
                   {/* Replace with actual content or lorem ipsum */}
                   Real-Time Tracking and Updates
                 </p>
               </div>
 
               <div style={{ display: 'flex', width: '110%', height: '60px', alignItems: 'center', flexShrink: 0, borderRadius: '10px', border: '1px solid #000', background: 'var(--Cream, #F1E6DF)', boxShadow: '2px 4px 4px 0px rgba(0, 0, 0, 0.10) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25)', marginTop: '20px', textAlign: 'center' }}>
-                <p style={{ color: '#000', fontFamily: '  ', fontSize: '25px', fontWeight: 400, lineHeight: 'normal', margin: 0 ,paddingLeft:'170px'}}>
+                <p style={{ color: '#000', fontFamily: '  ', fontSize: '1.5rem', fontWeight: 400, lineHeight: 'normal', margin: 0 ,padding:'8%'}}>
                   {/* Replace with actual content or lorem ipsum */}
                   Customer Support
                 </p>

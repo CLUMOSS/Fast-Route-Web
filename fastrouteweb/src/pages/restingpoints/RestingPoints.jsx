@@ -4,15 +4,15 @@ import '../../styles/Resting.css';
 const RestingPoints = () =>{
     return (
         <div className = "border-bottom" >
-            <div className = "row flex my-4">
-           <h1 className = "col-4">Resting points</h1>
+            <div className = "head row flex my-4">
+           <h1 className = "col-4 px-5">Resting points</h1>
            
            <p className = "col-8 start"><span className='bar'>|</span> We offer comprehensive vehicle insurance services tailored to meet the unique needs of our clients.</p>
            </div>
 
            <div className = "resting row flex px-3 my-5">
                 <div className = "text1 col-6 row flex">
-                <div className = "col-3">
+                    <div className = "l col-3">
                     <img src = "restingLogo.png" alt ="logo"  />
                     </div>
                     <div className = "col-7  py-5">
