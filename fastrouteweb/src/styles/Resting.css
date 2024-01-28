@@ -1,5 +1,9 @@
+.r{
+    background-color: #FFF9F4;
+}
+
 .bar{
-    color: #523B29;
+    color: #E36400;
     font-size: 35px;
     font-weight: 700;
     line-height: 34px;
@@ -25,13 +29,13 @@
 }
 
 .locate{
-    background-color: #724E31;
+    background-color: #E36400;
     width: 268px;
     height: 60px;
     padding: 19px, 50px, 19px, 50px;
     border-radius: 10px;
     gap: 10px;
-    border: 0.5px solid #724E31;
+    border: 0.5px solid #E36400;
 }
 
 .locateText{
@@ -91,8 +95,8 @@
     padding: 19px, 50px, 19px, 50px;
     border-radius: 10px;
     gap: 10px;
-    border: 0.5px solid #724E31;
-    background-color: #724E31;
+    border: 0.5px solid #E36400;
+    background-color: #E36400;
 
 }
 

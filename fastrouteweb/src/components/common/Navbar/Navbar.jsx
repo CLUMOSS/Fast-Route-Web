@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <header className="navbar d-flex flex-wrap align-items-center justify-content-center justify-content-md-between px-5">
       <div className="col-md-3 mb-2 mb-md-0">
-        <img src = "logo2 2.png" alt = "fastRoute logo"></img>
+        <img src = "logo2.png" alt = "fastRoute logo"></img>
       </div>
 
       <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">

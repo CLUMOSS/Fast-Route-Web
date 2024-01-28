@@ -8,29 +8,29 @@ const ContactUs = () => {
   return (
     <div>
       <div className="contact">
-        <img src="/Receiver.png" alt="receiver" />
         <div className="main my-5 mx-5 px-5">
           <h1 className="heading px-3">Contact Us</h1>
-          <h2 className="main-text mx-4 my-4">
-            At FastRoute we bridge the gap between businesses and transporters by offering a platform that harbors collaboration, reliability, and speed.
+          <h2 className="main-text mx-4 my-4 col-lg-6 col-12">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eiusmod labore et magna aliqua.
           </h2>
+          <div className="info my-2 py-5">
+            <div className="i px-2">
+=======
           <div className="info my-5 py-5">
             <div className="i px-5">
               <img src="./Phone Icon.png" alt="phone" />
               <div>
-                <strong>Phone</strong>
-                <br />
-                <br />
-                <p>+91 87660 457XXX<br /> +91 98765 423XXX</p>
+                <p className = "info-text">+91 87660 457XXX<br /> +91 98765 423XXX</p>
               </div>
             </div>
+            <div className="i mx-5 px-2">
+=======
             <div className="i mx-5 px-5">
               <img src="./Location Icon.png" alt="location" />
               <div>
-                <strong>Location <br />FastRoute Company</strong>
+                <strong>FastRoute Company</strong>
                 <br />
-                <br />
-                <p>811 Indian Summer Rd.<br />Sun City, AZ 85351</p>
+                <p className = "info-text">811 Indian Summer Rd.<br />Sun City, AZ 85351</p>
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@ const ContactUs = () => {
 
       <div className="follow my-5 py-5">
         <div className="col-12 col-md-3 fleft">
-          <h2 className="mx-5">Follow Us</h2>
+          <h2 className="mx-5 follow-text">Follow Us</h2>
           <div className='handles mx-5 py-2'>
             <div className='handle my-3 mx-5 px-4 py-3'>
               <img src="./Instagram Icon.png" alt="Instagram" /><span className="handletext mx-3">Instagram</span>
@@ -59,6 +59,18 @@ const ContactUs = () => {
         </div>
       </div>
 
+      <div className="enquiry row flex mb-5">
+       <div className = "leftEnquiry col-lg-2 col-sm-12 py-5 px-5">
+            <h1 className = "enquiry-text">For Enquiry</h1>
+            <div className = "mx-5">
+              <input type = "text" className = " inputFields p-2 mx-5 my-2" placeholder='Name'/><br/>
+              <input type = "email" className = " inputFields p-2 mx-5 my-2" placeholder = "Email Id"/><br/>
+              <input type = "text" className = " inputFields p-2 mx-5 my-2" placeholder = "Phone Number"/><br/>
+              <textarea rows= "50" placeholder = "Comments" className = " inputFields p-2 mx-5 my-2"/><br/>
+              <button className = "enquiry-button mx-5"><span className = "enquiry-button-text">Enquire</span></button>
+            </div>
+       </div>
+       <div className='col-4'>
       <div className="enquiry row flex">
         <div className="col-12 col-md-7 py-5">
           <h2 className="mx-3">For Enquiry</h2>
@@ -76,8 +88,13 @@ const ContactUs = () => {
           </form>
         </div>
         <div className=" col-12 col-md-5">
-          <img src="/enquiry.png" alt="question area" className = "image"/>
-        </div>
+          <img src="/enquiry.png" alt="question area" className = "image"/>        </div>
+       <div className='col-4 mt-5'>
+        <div className = "request-text border-bottom">Request for Services</div>
+        <p className = "request mt-3">Let us know your areas of interest so that we can serve you better</p>
+        <img src = "design.png" className = "design"/>
+       </div>
+       <div className = "col-lg-2"></div>
       </div>
     </div>
   );

@@ -1,8 +1,10 @@
 import ContactUs from "./ContactUs";
+
 const Contactpg = () => {
     return (
               <div className="">
-<ContactUs></ContactUs>                   
+<ContactUs></ContactUs>   
+                            
               </div>
             );
           }
