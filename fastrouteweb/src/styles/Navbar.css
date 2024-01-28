@@ -1,9 +1,8 @@
 .login{
-    background-color:#E46400;
+    background-color:#724E31;
     color: white;
     border-radius: 30px;
-    border-color: #E46400;
-    
+    border-color: #724E31;
     border-style: solid;
     height: 45px;
     width: 140px;
@@ -13,7 +12,7 @@
 
 
 .login:hover{
-    box-shadow: 0px 0px 1px 1px #E46400;
+    box-shadow: 0px 0px 1px 1px #724E31;
 }
 .nav-item{
     color: black;
@@ -22,7 +21,7 @@
 }
 
 .nav-item:hover{
-    color:#E46400;
+    color:#724E31;
 }
 
 .navbar{
