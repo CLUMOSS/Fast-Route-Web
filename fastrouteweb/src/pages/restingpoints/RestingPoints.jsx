@@ -3,8 +3,6 @@ import '../../styles/Resting.css';
 
 const RestingPoints = () =>{
     return (
-        <div className = "r border-bottom py-2" >
-=======
         <div className = "border-bottom" >
             <div className = "head row flex my-4">
            <h1 className = "col-4 px-5">Resting points</h1>
@@ -26,7 +24,7 @@ const RestingPoints = () =>{
                     <div className = "find px-5 mt-5 mb-5">
                         <span className = "nearest">Find our nearest Resting point</span><br/>
                         <span className = "shipping">Enter your shipping details and you will find us!</span>
-                        <form className = "r mt-5">
+                        <form className = "mt-5">
                             <input placeholder='Name' type = "text" className='field mb-3 px-3'/><br/>
                             <input placeholder='Shipping pincode' type = 'text' className = 'field mb-3 px-3'/><br/>
                             <button type =  'submit' className = 'pincodeButton mt-5'><span className = "pincodeText">Get details</span></button>
