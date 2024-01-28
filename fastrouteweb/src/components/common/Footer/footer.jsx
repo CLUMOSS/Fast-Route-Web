@@ -10,7 +10,7 @@ const Footer = () => {
 
       <div className={styles.column}>
         <div className={styles.location}>
-          <img src="/locationIcon.png" alt="Location Logo" className={styles.locationLogo} />
+          <img src="/LocationIcon.png" alt="Location Logo" className={styles.locationLogo} />
           <p>Lorem ipsum dolor sit amet,<br />consectetur adipiscing elit, sed<br />do eiusmod tempor incididunt <br />utlabore et dolore magna aliqua. </p>
         </div>
         <br />
