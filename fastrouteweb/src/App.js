@@ -10,8 +10,9 @@ import AppRoutes from './routes'; // Import your routes
 function App() {
   return (
     <Router>
-        <Navbar></Navbar>
+        <Navbar/>
       <AppRoutes />
+      <Footer />
     </Router>
   );
 }

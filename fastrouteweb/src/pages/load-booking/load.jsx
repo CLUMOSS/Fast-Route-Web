@@ -1,10 +1,11 @@
-import React from "react";
-import Booking from './booking';
+import BookingLogos from './components/bookingLogos';
+import FormBooking from './components/formBooking';
 
 const Load = () => {
     return(
         <div>
-        <Booking></Booking>
+        <BookingLogos/>
+        <FormBooking/>
         </div>
     )
 }

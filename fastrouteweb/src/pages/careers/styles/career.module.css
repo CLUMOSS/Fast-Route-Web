@@ -1,0 +1,248 @@
+
+/*---------- CAREER HEADER ----------*/
+
+.CareerHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #F1E6DF;
+}
+
+.CareerHeaderHeading{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.CareerHeaderHeading h1{
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.CareerHeaderHeading p{
+    font-size: 21px;
+    line-height: 30px;
+    color: #5C5C5C;
+    text-align: start;
+    margin-left: 60px;
+}
+
+.CareerHeaderImage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.CareerHeaderImage img{
+    width: auto;
+    height: 300px;
+    margin-right: 20px;
+}
+
+@media (max-width: 1320px){
+    .CareerHeaderImage img{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1120px){
+    .CareerHeaderImage{
+        display: none;
+    }
+
+    .CareerHeaderHeading p{
+        margin-left: 30px;
+    }
+
+    .CareerHeaderHeading h1{
+        margin-left: 30px;
+    }
+}
+
+/*---------- CAREER VALUES ----------*/
+
+
+.CareerValues{
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.CareerValuesHead{
+    margin-left: 60px;
+    text-align: start;
+}
+
+.CareerValuesHead h1{
+    text-align: start;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.CareerValue{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.CareerValueContainer{
+    display: flex;
+}
+
+.CareerValueImage{
+    margin-right: 20px;
+}
+
+.CareerContainerHead{
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1120px){
+    .CareerValuesHead{
+        margin-left: 30px;
+    }
+    .CareerValues{
+    background-color: #F1E6DF;
+    }
+}
+
+/*---------- CAREER OPENINGS ----------*/
+
+.CareerOpening{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #F1E6DF;
+}
+
+.CareerOpeningHead{
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.CareerOpeningHeading{
+    font-weight: bold;
+}
+
+.CareerInputs{
+    display: flex;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+
+.CareerInput{
+    padding: 15px;
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    margin-right: 40px;
+}
+
+.btn2{
+    padding: 3px 3px;
+    justify-content: center;
+    width: 150px;
+    margin-left: 15px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    border-radius: 10px;
+    background: var(--Medium-Brown, #724E31);
+}
+
+.btn4{
+    display: none;
+    padding: 3px 3px;
+    justify-content: center;
+    width: 150px;
+    margin-left: 15px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    border-radius: 10px;
+    background: var(--Medium-Brown, #724E31);
+}
+
+.openBox{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.openHead{
+    font-weight: bold;
+}
+
+.openPara{
+    font-size: 19px;
+}
+
+.openBtn{
+    margin-top: 25px;
+}
+
+.btn3{
+    border: none;
+    padding: 5px;
+    border-radius: 20px;
+    width: 120%;
+    background-color: white;
+}
+
+.CareerOpenApply{
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+.CareerApplyLink{
+    color: black;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+@media (max-width: 1120px){
+    .CareerOpening{
+        background-color: white;
+    }
+    .CareerOpeningHead{
+        margin-left: 30px;
+    }
+    .CareerInputs{
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .CareerInputs svg{
+        display: none;
+    }
+    .CareerInput{
+        width: 320px;
+        border: 2px solid #724E31;
+    }
+    .btn2{
+        display: none;
+    }
+    .btn4{
+        display:block;
+        margin-top: 25px;
+        padding: 12px;
+    }
+    .openBox{
+        display: none;
+    }
+}
